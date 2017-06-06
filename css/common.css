@@ -1,0 +1,209 @@
+@charset "utf-8";
+/* CSS Document */
+/* Begin 公共标记样式 */
+body {
+	margin:0px;
+	padding:0px;
+	font-size:12px;
+	font-family:"微软雅黑", "Arial", "Times New Roman", "Times", "serif";
+}
+ul {
+	list-style:none;
+	margin:0px;
+	padding:0px;
+}
+li {
+	float:left;
+}
+p {
+	font-size:14px;
+	line-height:20px;
+	padding:7px 0px;
+	margin:0px;
+}
+b {
+	font-weight:normal;
+}
+b.bor {
+	font-weight:bold;
+}
+h1 {
+    font-size:16px;
+	margin:0px;
+}
+h2 {
+	font-size:20px;
+	padding:10px 0px;
+	margin:0px;
+}
+h3 {
+	font-size:14px;
+	padding:7px 0px;
+	margin:0px;
+}
+textarea {
+	overflow-y:scroll;
+	height:200px;
+}
+/* End   公共标记样式 */
+
+/* Begin 公共class样式 */
+.clear {
+	clear:both;
+}
+.hover {
+	background:url(../images/bgLink.png) no-repeat;
+	snake: expression(
+	this.pngSet?this.pngSet=true:(this.nodeName == "IMG" && this.src.toLowerCase().indexOf('.png')>-1?(this.runtimeStyle.backgroundImage = "none",
+	this.runtimeStyle.filter = "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='" + this.src + "', sizingMethod='image')",
+	this.src = "transparent.gif"):(this.origBg = this.origBg? this.origBg :this.currentStyle.backgroundImage.toString().replace('url("','').replace('")',''),
+	this.runtimeStyle.filter = "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='" + this.origBg + "', sizingMethod='crop')",
+	this.runtimeStyle.backgroundImage = "none")),this.pngSet=true);
+	cursor:pointer;
+}
+/* End   公共class样式 */
+
+#topContainer {
+	text-align:center;
+	height:400px;
+	background:url(../images/bgTC.jpg) repeat-x;
+	border-bottom:1px solid #1B4F65;
+}
+#middleContainer {
+	background:url(../images/bgMC.jpg) repeat-x;
+	border-top:1px solid #FFFFFF;
+}
+#bottomContainer {
+	text-align:center;
+	height:58px;
+	line-height:58px;
+	background:url(../images/bgBC.jpg) repeat-x;
+}
+
+/* Begin topContainer */
+#topContainer #header, #topContainer #headerContent {
+	margin:0 auto;
+	width:960px;
+}
+#header {
+	text-align:left;
+	height:80px;
+	overflow:hidden;
+	border-bottom:1px solid #3E80A0;
+}
+#logo {
+	width:296px;
+	height:70px;
+	margin-top:5px;
+	margin-left:30px;
+	_margin-left:15px;
+	float:left;
+}
+#logoImg {
+	border:0px;
+	snake: expression(
+	this.pngSet?this.pngSet=true:(this.nodeName == "IMG" && this.src.toLowerCase().indexOf('.png')>-1?(this.runtimeStyle.backgroundImage = "none",
+	this.runtimeStyle.filter = "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='" + this.src + "', sizingMethod='image')",
+	this.src = "transparent.gif"):(this.origBg = this.origBg? this.origBg :this.currentStyle.backgroundImage.toString().replace('url("','').replace('")',''),
+	this.runtimeStyle.filter = "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='" + this.origBg + "', sizingMethod='crop')",
+	this.runtimeStyle.backgroundImage = "none")),this.pngSet=true);
+}
+#link {
+	float:right;
+	margin:30px 20px 0px 0px;
+	font-family:"黑体"
+}
+#link ul li {
+	margin:0px 10px;
+}
+#link ul li a {
+	color:#FFFFFF;
+	text-decoration:none;
+	display:block;
+	font-size:14px;
+	width:67px;
+	height:26px;
+	line-height:26px;
+	text-align:center;
+}
+#link ul li a.hover:hover {
+	color:#FFFFFF;
+	font-weight:normal;
+	border:0px;
+}
+#link ul li a:hover {
+	font-weight:bold;
+	border-bottom:1px solid #FFFFFF;
+}
+
+#headerContent {
+	height:318px;
+	border-top:1px solid #82C7E6;
+	background:url(../images/bgHC.jpg) no-repeat;
+}
+/* End   topContainer */
+
+/* Begin middleContainer */
+#MCContent {
+	margin:0 auto;
+	width:960px;
+	padding-top:40px;
+}
+/* End   middleContainer */
+
+/* Begin bottomContainer */
+#footer {
+	margin:0 auto;
+	width:960px;
+	font-family:Arial;
+	height:58px;
+	line-height:15px;
+}
+#downlink a{
+	text-decoration:none;
+	color:#5F9DE8;
+	margin:3px;
+}
+#downlink a:hover{
+	text-decoration:underline;
+}
+#downlink{
+	height:22px;
+	line-height:26px;
+}
+#footer #c {
+	height:18px;
+	_line-height:18px;
+	color: #5F9DE8;
+}
+#footer #e {
+	height:18px;
+	_line-height:18px;
+}
+#footer #e a {
+	color:#5F9DE8;
+	font-weight:bold;
+	text-decoration:none;
+}
+#footer #e a:hover {
+	text-decoration:underline;
+}
+/* End   bottomContainer */
+/*Begin map\laws\recruitment*/
+#topContainer_map {
+	text-align:center;
+	height:130px;
+	background:url(../images/bgTC.jpg) repeat-x;
+	border-bottom:1px solid #1B4F65;
+}
+
+#topContainer_map #header, #topContainer_map #headerContent_map {
+	margin:0 auto;
+	width:960px;
+}
+#headerContent_map {
+	height:48px;
+	border-top:1px solid #82C7E6;
+	background:url(../images/bgHC.jpg) no-repeat;
+}
+/*End map\laws\recruitment*/

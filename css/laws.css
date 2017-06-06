@@ -1,0 +1,30 @@
+@charset "utf-8";
+.clear {
+	clear:both;
+}
+#downlink a{
+	text-decoration:none;
+	color:#5F9DE8;
+}
+/*#downlink{
+	height:20px;
+	line-height:26px;
+}*/
+#content{
+	margin:20px  auto;
+	width:960px;
+}
+#content_header{
+	margin:0 auto;
+	width:790px;
+	border-bottom:1px solid #CCCCCC;
+	
+}
+#content_footer{
+	margin:0 auto;
+	width:790px;
+	padding-top:15px;
+}
+#content_footer p ,h3{
+	text-indent: 2em;
+}

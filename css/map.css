@@ -1,0 +1,32 @@
+@charset "utf-8";
+.clear {
+	clear:both;
+}
+#content{
+	margin:20px  auto;
+	width:960px;
+}
+#content_header{
+	margin:0 auto;
+	width:790px;
+	border-bottom:1px solid #CCCCCC;
+}
+#map_link{
+	margin:0 auto;
+	width:790px;
+	padding-top:20px;
+}
+#map_link dd{
+	margin-top:20px;
+}
+#map_link a{
+	text-decoration:none;
+}
+.linksheader{
+	font-size:14px;
+}
+.links a{
+	margin-left:20px;
+	color:#000000;
+}
+

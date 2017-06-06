@@ -1,0 +1,190 @@
+@charset "utf-8";
+/* CSS Document */
+#MCContent {
+	padding-top:0px;
+}
+.HCLeftMiddle {
+    color:#FFFFFF;
+    font-size:14px;
+    text-align:left;
+    margin-top:20px;
+    margin-left:30px;
+}
+#HCLeft {
+	width:510px;
+	height:268px;
+	margin-top:10px;
+	margin-left:10px;
+	float:left;
+}
+#HCRight {
+	width:337px;
+	height:270px;
+	background:url(../images/ProductEM.png) no-repeat right top;
+	snake: expression(
+	this.pngSet?this.pngSet=true:(this.nodeName == "IMG" && this.src.toLowerCase().indexOf('.png')>-1?(this.runtimeStyle.backgroundImage = "none",
+	this.runtimeStyle.filter = "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='" + this.src + "', sizingMethod='image')",
+	this.src = "transparent.gif"):(this.origBg = this.origBg? this.origBg :this.currentStyle.backgroundImage.toString().replace('url("','').replace('")',''),
+	this.runtimeStyle.filter = "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='" + this.origBg + "', sizingMethod='crop')",
+	this.runtimeStyle.backgroundImage = "none")),this.pngSet=true);
+	margin-top:20px;
+	float:right;
+}
+#HCLeftTop {
+    margin-left:30px;
+}
+#HCLeftTop img {
+	float:left;
+	_width:2px;
+	_height:18px;
+	_padding-top:12px;
+	display:inline;
+}
+#HCLeftTop img{
+	float:left;
+}
+#HCLeftTop a{
+	display:block;
+	text-decoration:none;
+	font-family:微软雅黑;
+	font-size:16px;
+	font-weight:bolder;
+	color:#FFFFFF;
+	line-height:40px;
+	width:168px;
+	height:40px;
+	float:left;
+}
+#HCLeftTop .HCLeftPa a{
+	display:block;
+	width:142px;
+	height:44px;
+}
+#HCLeftTop .HCLeftOA a{
+	display:block;
+	width:142px;
+	height:44px;
+}
+#HCLeftTop ul li a:hover{
+    background:url(../images/ProductLayerBg.gif) no-repeat;
+}
+.current{
+	background:url(../images/ProductLayerBg.gif) no-repeat;
+	width:168px;
+	height:37px;
+}
+#HCLeftTitle{
+	color:#FFFFFF;
+	font-weight:bolder;
+	text-align:left;
+	margin: 30px 10px 30px 10px;
+}
+#HCLeftBottom {
+    margin-left:160px;
+    margin-top:30px;
+	width:174x;
+}
+#HCLeftBottom a {
+	float:left;
+    color:#FFFFFF;
+	text-decoration:none;
+	margin-left:10px;
+	display:block;
+	font-size:12px;
+	width:87px;
+	height:32px;
+	line-height:32px;
+	text-align:center;
+    cursor:pointer;
+    background:url(../images/ProducBbtn.png) no-repeat;
+	snake: expression(
+	this.pngSet?this.pngSet=true:(this.nodeName == "IMG" && this.src.toLowerCase().indexOf('.png')>-1?(this.runtimeStyle.backgroundImage = "none",
+	this.runtimeStyle.filter = "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='" + this.src + "', sizingMethod='image')",
+	this.src = "transparent.gif"):(this.origBg = this.origBg? this.origBg :this.currentStyle.backgroundImage.toString().replace('url("','').replace('")',''),
+	this.runtimeStyle.filter = "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='" + this.origBg + "', sizingMethod='crop')",
+	this.runtimeStyle.backgroundImage = "none")),this.pngSet=true);
+}
+/*=======MCMiddle begin=========*/
+#MCMiddle{
+	margin:0px 30px;
+}
+#systemIntroduction, #systemFunction, #systemPerformance {
+	margin:0px 30px;
+}
+#systemIntroduction {
+	margin:0px 100px;
+}
+#systemFunction, #systemPerformance {
+	display:none;
+}
+#SI {
+	width:760px;
+}
+#SFLeft, #SFMiddle, #SFRight {
+	float:left;
+	width:240px;
+	padding-left:60px;
+}
+#SPLeft {
+	float:left;
+	width:410px;
+	_width:380px;
+	margin:0px 20px;
+}
+#SPRight {
+	float:right;
+	width:400px;
+	_width:380px;
+	margin:0px 30px 0px 20px;
+}
+
+/*===============按钮样式开始==================*/
+#purchase {
+    padding-top:20px;
+}
+#side_nav_combined_content {
+    margin: 0px 0px 0px 90px;
+    text-align: center;
+}
+.wrapper {
+    clear:both;
+    display:block;
+}
+.btnStyle01 li {
+    float:left;
+}
+.btnStyle01 li a:hover, .btnStyle01 li.currentshow a {
+    background-position:0 -70px;
+    color:#330000;
+    text-decoration:none;
+}
+.btnStyle01 li a {
+    background-image:url(../images/ProductBtnStyle01.png);
+    background-position:0 0;
+    background-repeat:no-repeat;
+    display:inline;
+    float:left;
+    font-size:14px;
+    height:34px;
+    line-height:34px;
+    margin-right:10px;
+    padding:0 0 1px;
+	text-decoration:none;
+}
+.btnStyle01 li a:hover span, .btnStyle01 li.currentshow a span {
+    background-position:100% -105px;
+}
+.btnStyle01 li a span {
+    background-image:url(../images/ProductBtnStyle01.png);
+    background-position:right -35px;
+    background-repeat:no-repeat;
+    cursor:pointer;
+    display:inline;
+    float:left;
+    font-weight:600;
+    margin:0 0 0 6px;
+    padding-left:10px;
+    padding-right:16px;
+	color:#000000;
+}
+/*=====================按钮样式结束========================*/

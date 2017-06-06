@@ -1,0 +1,83 @@
+@charset "utf-8";
+/* CSS Document */
+/* Begin topContainer */
+#HCLeft {
+	width:510px;
+	height:268px;
+	margin-top:50px;
+	float:left;
+}
+#HCLeftTop {
+	text-align:left;
+	margin-left:30px;
+}
+#HCLeftTop img {
+	snake: expression(
+	this.pngSet?this.pngSet=true:(this.nodeName == "IMG" && this.src.toLowerCase().indexOf('.png')>-1?(this.runtimeStyle.backgroundImage = "none",
+	this.runtimeStyle.filter = "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='" + this.src + "', sizingMethod='image')",
+	this.src = "transparent.gif"):(this.origBg = this.origBg? this.origBg :this.currentStyle.backgroundImage.toString().replace('url("','').replace('")',''),
+	this.runtimeStyle.filter = "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='" + this.origBg + "', sizingMethod='crop')",
+	this.runtimeStyle.backgroundImage = "none")),this.pngSet=true);
+}
+#HCLeftMiddle {
+	color:#FFFFFF;
+	font-size:14px;
+	text-align:left;
+	margin-top:20px;
+	margin-left:30px;
+}
+#HCLeftBottom {
+	margin-left:360px;
+	margin-top:10px;
+}
+#HCLeftBottom a {
+	color:#FFFFFF;
+	text-decoration:none;
+	display:block;
+	font-size:14px;
+	width:87px;
+	height:32px;
+	line-height:32px;
+	text-align:center;
+	cursor:pointer;
+	background:url(../images/IndexLookThis.png) no-repeat;
+	snake: expression(
+	this.pngSet?this.pngSet=true:(this.nodeName == "IMG" && this.src.toLowerCase().indexOf('.png')>-1?(this.runtimeStyle.backgroundImage = "none",
+	this.runtimeStyle.filter = "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='" + this.src + "', sizingMethod='image')",
+	this.src = "transparent.gif"):(this.origBg = this.origBg? this.origBg :this.currentStyle.backgroundImage.toString().replace('url("','').replace('")',''),
+	this.runtimeStyle.filter = "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='" + this.origBg + "', sizingMethod='crop')",
+	this.runtimeStyle.backgroundImage = "none")),this.pngSet=true);
+}
+#HCRight {
+	width:450px;
+	_width:440px;
+	height:278px;
+	background:url(../images/IndexHCRight.png) no-repeat right top;
+	snake: expression(
+	this.pngSet?this.pngSet=true:(this.nodeName == "IMG" && this.src.toLowerCase().indexOf('.png')>-1?(this.runtimeStyle.backgroundImage = "none",
+	this.runtimeStyle.filter = "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='" + this.src + "', sizingMethod='image')",
+	this.src = "transparent.gif"):(this.origBg = this.origBg? this.origBg :this.currentStyle.backgroundImage.toString().replace('url("','').replace('")',''),
+	this.runtimeStyle.filter = "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='" + this.origBg + "', sizingMethod='crop')",
+	this.runtimeStyle.backgroundImage = "none")),this.pngSet=true);
+	margin-top:40px;
+	float:right;
+}
+/* End   topContainer */
+
+/* Begin middleContainer */
+#MCLeft {
+	width:390px;
+	_width:360px;
+	float:left;
+	margin-left:80px;
+	_margin-left:40px;
+	margin-right:10px;
+}
+#MCRight {
+	width:390px;
+	_width:360px;
+	float:right;
+	margin-left:30px;
+	margin-right:30px;
+}
+/* End   middleContainer */

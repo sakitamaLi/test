@@ -1,0 +1,105 @@
+@charset "utf-8";
+/* CSS Document */
+#HCmiddle{
+	width:940px;
+	margin:25px auto 0px auto;
+}
+#HCTitle{
+	color:#000000;
+	font-weight:bolder;
+	padding-left:40px;
+	text-align:left;
+	font-size:14px;
+}
+/*图片滚动效果CSS  开始*/
+.rollBox{
+	overflow:hidden;
+	padding:2px 0 5px 6px;
+	margin:0 auto;
+}
+.rollBox .ScrCont{
+	width:10000000px;
+	margin-top:30px;
+}
+.rollBox .Cont .pic{
+	height:205px;
+	width:285px;
+	float:left;
+	text-align:center;
+}
+.rollBox .Cont .pic img{
+	padding:4px;
+	background:#fff;
+	display:block;
+	margin:0px auto;
+	border:0px;
+	cursor:pointer;
+}
+.rollBox .Cont .pic p{
+	line-height:26px;
+	color:#505050;
+}
+.rollBox .Cont a:link,.rollBox .Cont a:visited{
+	color:#626466;
+	text-decoration:none;
+}
+.rollBox .Cont a:hover{
+	color:#f00;
+	text-decoration:underline;
+}
+.rollBox #List1,.rollBox #List2{
+	float:left;
+}
+.rollBox .LeftBotton{
+	height:254px;
+	width:38px;
+	background:transparent url(../images/DevelopmentLeft.png) no-repeat scroll 0 0 ;
+	overflow:hidden;
+	float:left;
+	display:inline;
+	cursor:pointer;
+	snake: expression(
+	this.pngSet?this.pngSet=true:(this.nodeName == "IMG" && this.src.toLowerCase().indexOf('.png')>-1?(this.runtimeStyle.backgroundImage = "none",
+	this.runtimeStyle.filter = "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='" + this.src + "', sizingMethod='image')",
+	this.src = "transparent.gif"):(this.origBg = this.origBg? this.origBg :this.currentStyle.backgroundImage.toString().replace('url("','').replace('")',''),
+	this.runtimeStyle.filter = "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='" + this.origBg + "', sizingMethod='crop')",
+	this.runtimeStyle.backgroundImage = "none")),this.pngSet=true);
+}
+.rollBox .RightBotton{
+	height:254px;
+	width:38px;
+	background: transparent url(../images/DevelopmentRight.png) no-repeat scroll 0 0 ;
+	overflow:hidden;
+	float:left;
+	display:inline;
+	cursor:pointer;
+	snake: expression(
+	this.pngSet?this.pngSet=true:(this.nodeName == "IMG" && this.src.toLowerCase().indexOf('.png')>-1?(this.runtimeStyle.backgroundImage = "none",
+	this.runtimeStyle.filter = "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='" + this.src + "', sizingMethod='image')",
+	this.src = "transparent.gif"):(this.origBg = this.origBg? this.origBg :this.currentStyle.backgroundImage.toString().replace('url("','').replace('")',''),
+	this.runtimeStyle.filter = "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='" + this.origBg + "', sizingMethod='crop')",
+	this.runtimeStyle.backgroundImage = "none")),this.pngSet=true);
+}
+.rollBox .Cont{
+	width:855px;
+	height:254px;
+	overflow:hidden;
+	float:left;
+	background:transparent url(../images/DevelopmentBg.gif) repeat-x scroll 0 0;
+}
+.picTitle{
+	margin-top:3px;
+	font-size:14px;
+}
+/*图片滚动效果CSS  结束*/
+#MCLayout {
+	margin:0px 100px;
+}
+#MCLayout p a {
+	color:#5F9DE8;
+	font-weight:bold;
+	text-decoration:none;
+}
+#MCLayout p a:hover {
+	text-decoration:underline;
+}
